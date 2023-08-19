@@ -39,7 +39,7 @@ $ python3 -m pip install -r requirements.txt
 
 ## Usage
 
-Run the `main.py` script to start the handnail tracking application:
+Run the `main.py` script on the root of the directory to start the handnail tracking application:
 
 ```bash
 $ python3 main.py
