@@ -17,8 +17,8 @@ This Python project is a handnail tracking application using TensorFlow and Open
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/adinanabf/PowerNail.git
-cd PowerNail
+$ git clone https://github.com/adinanabf/PowerNail.git
+$ cd PowerNail
 ```
 
 2. Install the dependencies:
@@ -40,7 +40,7 @@ $ python3 -m pip install -r requirements.txt
 Run the `main.py` script to start the handnail tracking application:
 
 ```bash
-python3 main.py
+$ python3 main.py
 ```
 
 The application will begin capturing video from the camera and display the video frames with detected handnails in real-time. To exit the application, press the "q" key.
