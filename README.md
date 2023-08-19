@@ -21,13 +21,15 @@ $ git clone https://github.com/adinanabf/PowerNail.git
 $ cd PowerNail
 ```
 
-2. Install the dependencies:
+(You can choose between 2a and 2b)
+
+2a. Install the dependencies:
 
 ```bash
-$ pip install tensorflow opencv-python numpy python3-venv
+$ pip install tensorflow opencv-python numpy
 ```
 
-Install the requirements into a virtual enviroment
+2b. Install the requirements into a virtual enviroment
 
 ```bash
 $ python3 -m venv venv
