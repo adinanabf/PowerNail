@@ -26,6 +26,7 @@ def hex_to_bgr(hex):
 
 def process_image(frame):
     YCrCb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2YCrCb)
+    YCrCb_frame[:,:,0] = cv2.equalizeHist(YCrCb_frame[:,:,0])
     YCrCb_frame = cv2.GaussianBlur(YCrCb_frame, (3, 3), 0)
     mask = cv2.inRange(YCrCb_frame, np.array([0, 127, 75]), np.array([255, 177, 130]))
 
