@@ -55,4 +55,4 @@ If desired, you can adjust the parameters in the handnail_tracking.py file to su
 
 - The object detection model is based on the TensorFlow Object Detection API.
 
-- Handnail detection is inspired by [Wen YongLiang's Nail Tracking algorythm](https://github.com/toddwyl/nailtracking).
+- Handnail detection is inspired by [Victor Dibia's Hand Tracking algorythm](https://github.com/victordibia/handtracking).
